@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    
+    <h2>SignUp</h2>
+    <a href="./index.html">Index Link</a>
+    <p>Take the next steps to apply at Altschool Africa</p>
+    <form action="">
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="firstname" placeholder="Enter First Name">
+        
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Enter Last Name">
+
+        <br>
+        <label for="gender">Gender</label>
+        <select name="gender">
+            <option value="">--Select Gender--</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+
+        <label for="date">Date Of Birth</label>
+        <input type="date" name="date" id="date">
+
+        <br>
+        <label for="Mail">Email Address</label>
+        <input type="email" name="mail" id="mail" placeholder="Enter Email Address" required >
+        
+        <label for="phone">Phone Number</label>
+        <input type="number" name="phone" id="" placeholder="+234 825349286">
+        <br>
+        <label for="country">Country</label>
+        <select name="country" id="">
+            <option value="">--Select Country--</option>
+            <option value="">Ghana</option>
+            <option value="">United state of America</option>
+            <option value="">Nigeria</option>
+            <option value="">Canada</option>
+        </select>
+
+        <label for="state">State/City Of Resident</label>
+        <input type="text" id="state" name="state" placeholder="Enter Your State Of Residence">
+        <br>
+        
+        <label for="country">How did you hear about us?</label>
+        <select name="about" id="">
+            <option value="">--Select Channel--</option>
+            <option value="">Linkedin</option>
+            <option value="">Facebook</option>
+            <option value="">Twitter</option>
+            <option value="">Newspaper</option>
+            <option value="">Bill board</option>
+        </select>
+        <br>
+        <label for="pass">Password</label>
+        <input type="password" name="pass" id="pass" placeholder="Enter Password" min="6">
+
+        <label for="Cpass">Confirm Password</label>
+        <input type="password" name="Cpass" id="Cpass" placeholder="Enter Password again">
+
+        <p>By clicking continue, I agree to  Terms of Use and acknowledge that I
+            have read the  Privacy Policy.</p>
+
+            <!-- <input type="submit" value="Submit"> -->
+            <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
